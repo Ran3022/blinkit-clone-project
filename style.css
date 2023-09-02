@@ -1,6 +1,4 @@
-.location{
 
-}
 
 .location>h5{
     color: rgb(0, 0, 0);
@@ -110,104 +108,9 @@
     width: 100%;
     overflow-x: scroll;
 }
-.my-footer{
-    width: 85%;
-    margin: auto;
-}
-.row-3{
-    text-align: justify;
-    color: #666666;
-    font-size: 15px;
-    padding:10px;
-}
+footer {
+    margin-top: 32px;
+    padding: 20px;
+    text-align: center;
 
-.row-2{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-}
-.row-2>p{
-    text-align: justify;
-    color: #666666;
-    font-size: 12px;
-    width: 35%;
-}
-
-.download-section>p{
-    color: #666666;
-    font-weight: 600;
-    font-size: 14px;
-    margin: 16px;
-}
-.download-btns{
-    background-color: #213b50;
-    color: white;
-    border-radius: 10px;
-    margin: 10px;
-    border: none;
-    padding: 10px;
-}
-.social-btn{
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-    margin-inline: 10px;
-}
-
-.social{
-    display: flex;
-}
-
-.row-1{
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.useful-links{
-    flex: 2;
-}
-
-.categories-links{
-    flex: 3;
-}
-table{
-    width: 100%;
-}
-td{
-    padding: 3px 10px;
-    color: #666666;
-    font-size: 14px;
-}
-
-
-@media screen and (max-width:768px){
-    nav,.row-2,.row-1{
-        flex-direction: column !important;
-    }
-    .vertical-line,.hero-section>img{
-        display: none !important;
-    }
-    .nav-btns,.row-2>p,.search-div{
-        width: 90%;
-    }
-    .row-1>div,.my-container{
-        margin-top: 20px;
-    }
-    .row-1>div>h2,.row-1>div>h4{
-        text-align: center;
-    }
-    td{
-        text-align: center;
-    }
-    .social{
-        margin-top: 10px;
-    }
 }
